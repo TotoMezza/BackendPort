@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 
-@CrossOrigin(origins = {" https://frontendtm-eeae6.web.app"})
+@CrossOrigin(origins = {" https://frontendtm-eeae6.web.app","http://localhost:4200"})
 public class CProyecto {
     @Autowired
     SProyecto sProyecto;
